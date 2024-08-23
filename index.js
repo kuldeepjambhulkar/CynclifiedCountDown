@@ -4,7 +4,7 @@ function formatNumber(number) {
 
 function updateCountdown() {
     const now = new Date();
-    const targetDate = new Date(now.getFullYear(), 7, 23, 18, 0, 0, 0); // August is month 7 (0-based index)
+    const targetDate = new Date(now.getFullYear(), 7, 23, 18, 10, 0, 0); // August is month 7 (0-based index)
     // if (now > targetDate) {
     //     targetDate.setFullYear(now.getFullYear() + 1);
     // }
